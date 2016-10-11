@@ -1,10 +1,58 @@
 ul.horizontal {
     margin: 0;
     padding: 0;
+    display: inline-block;
+    font-family: cursive;
+    border-bottom: solid black;
 }
 
 ul.horizontal li{
   display: block;
   float: left;
   padding: 0 10px;
+  text-align: center;
+  font-size: 14pt;
+}
+
+body {
+  height: auto;
+  margin 0;
+  text-align: center;
+  background: linear-gradient(salmon, crimson);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  height:auto;
+  margin: auto;
+}
+
+ul.nobullets li{
+  padding: 20px;
+  text-align: center;
+  list-style-type: none;
+}
+
+img.resize {
+  width: 720px;
+  height: 480px;
 }
